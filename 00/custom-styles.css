@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+/* Using Float */
+
+body{
+    margin: 30px 60px;
+    font-family: 'Open Sans', sans-serif;
+    /* background-color: khaki; */
+}
+.nav__logo{
+    float: left;
+    font-weight: 800;
+    /* background-color: brown; */
+    
+}
+.nav__main {
+    margin-top: -16px;
+    margin-right: 611px;
+    float: left;
+    /* background-color: blue; */
+}
+.nav__social{
+    margin-top: -16px;
+    float: left;
+    /* background-color: lightcoral; */
+}
+.nav__main--active{
+    border-bottom: black solid 2px;
+    padding-bottom: 2px;
+}
+
+.nav__main li, .nav__social li{
+    float: left;
+    list-style: none;
+}
+.nav__main li{
+    padding: 0px 16px;
+}
+.nav__main li a{
+    text-decoration: none;
+    color: black;
+}
+.nav__social li{
+    padding: 0px 8px;
+    
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.content{
+    margin-top: 250px;
+}
+.content__left{
+    margin-top: 150px;
+}
+.content__left__title {
+    width: 297px;
+    font-weight: 400;
+}
+.content__left__description {
+    width: 356px;
+    font-weight: 300;
+}
+.content__left__btn{
+    margin-top: 24px;
+    background-color: #2A2A2A;
+    color: white;
+    padding: 8px 32px;
+    width: 120px;
+    border-radius: 32px;
+}
+.content__right{
+    margin-top: -320px;
+}
+.content__right__illustration {
+    width: 705px;
+    margin-left: 535px;
+}
+ 
+
+/* Using Flex */
+
+/* Using Grid */
